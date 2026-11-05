@@ -264,8 +264,12 @@ h1 em {
 
 .hero h1 {
   font-size: clamp(2.7rem, 5.3vw, 4.9rem);
-  max-width: 13ch;
+  max-width: 15ch;
   margin-bottom: 28px;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 .hero h1 em {
